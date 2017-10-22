@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Avatars/Clockwerk.unity
+  isLoaded: 1
+  isActive: 1

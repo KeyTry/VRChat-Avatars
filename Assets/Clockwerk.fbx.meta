@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 5bfbc1588c52b3045a724879b4c0a6b9
+timeCreated: 1508653676
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 24_modelsheroesrattletraprattletraparmorcolor_1_0_0
+    100002: 24_modelsheroesrattletraprattletrapcolor_1_0_0
+    100004: 24_modelsheroesrattletraprattletrapheadcolor_1_0_0
+    100006: arm left elbow
+    100008: arm left finger 1b
+    100010: arm left finger 1c
+    100012: arm left finger 1c_end
+    100014: arm left finger 2a
+    100016: arm left finger 2b
+    100018: arm left finger 2b_end
+    100020: arm left shoulder 1
+    100022: arm left shoulder 2
+    100024: arm left wrist
+    100026: arm right elbow
+    100028: arm right finger 1b
+    100030: arm right finger 1c
+    100032: arm right finger 1c_end
+    100034: arm right finger 2a
+    100036: arm right finger 2b
+    100038: arm right finger 2b_end
+    100040: 'arm right shoulder 1 '
+    100042: arm right shoulder 2
+    100044: arm right shoulder pad
+    100046: arm right shoulder pad_end
+    100048: arm right wrist
+    100050: Armature
+    100052: back landmine
+    100054: back landmine holder
+    100056: back landmine holder_end
+    100058: back landmine_end
+    100060: back thing
+    100062: Camera
+    100064: //RootNode
+    100066: flap front
+    100068: flap front_end
+    100070: head jaw
+    100072: head jaw_end
+    100074: head neck lower
+    100076: head neck upper
+    100078: Lamp
+    100080: leg left ankle
+    100082: leg left knee
+    100084: leg left thigh
+    100086: leg left toes
+    100088: leg left toes_end
+    100090: leg right ankle
+    100092: leg right knee
+    100094: leg right thigh
+    100096: leg right toes
+    100098: leg right toes_end
+    100100: missile gun 1
+    100102: missile gun 2
+    100104: missile gun lever
+    100106: missile gun lever_end
+    100108: rockets 1
+    100110: rockets 1_end
+    100112: rockets 2
+    100114: rockets 2_end
+    100116: rockets 3
+    100118: rockets 3_end
+    100120: rockets 4
+    100122: rockets 4_end
+    100124: root hips
+    100126: spine lower
+    100128: spine middle
+    100130: unused trash 01
+    100132: unused trash 02
+    100134: unused trash 02_end
+    100136: unused trash 03
+    100138: unused trash 03_end
+    100140: unused trash 04
+    100142: unused trash 04_end
+    100144: unused trash 05
+    100146: unused trash 05_end
+    400000: 24_modelsheroesrattletraprattletraparmorcolor_1_0_0
+    400002: 24_modelsheroesrattletraprattletrapcolor_1_0_0
+    400004: 24_modelsheroesrattletraprattletrapheadcolor_1_0_0
+    400006: arm left elbow
+    400008: arm left finger 1b
+    400010: arm left finger 1c
+    400012: arm left finger 1c_end
+    400014: arm left finger 2a
+    400016: arm left finger 2b
+    400018: arm left finger 2b_end
+    400020: arm left shoulder 1
+    400022: arm left shoulder 2
+    400024: arm left wrist
+    400026: arm right elbow
+    400028: arm right finger 1b
+    400030: arm right finger 1c
+    400032: arm right finger 1c_end
+    400034: arm right finger 2a
+    400036: arm right finger 2b
+    400038: arm right finger 2b_end
+    400040: 'arm right shoulder 1 '
+    400042: arm right shoulder 2
+    400044: arm right shoulder pad
+    400046: arm right shoulder pad_end
+    400048: arm right wrist
+    400050: Armature
+    400052: back landmine
+    400054: back landmine holder
+    400056: back landmine holder_end
+    400058: back landmine_end
+    400060: back thing
+    400062: Camera
+    400064: //RootNode
+    400066: flap front
+    400068: flap front_end
+    400070: head jaw
+    400072: head jaw_end
+    400074: head neck lower
+    400076: head neck upper
+    400078: Lamp
+    400080: leg left ankle
+    400082: leg left knee
+    400084: leg left thigh
+    400086: leg left toes
+    400088: leg left toes_end
+    400090: leg right ankle
+    400092: leg right knee
+    400094: leg right thigh
+    400096: leg right toes
+    400098: leg right toes_end
+    400100: missile gun 1
+    400102: missile gun 2
+    400104: missile gun lever
+    400106: missile gun lever_end
+    400108: rockets 1
+    400110: rockets 1_end
+    400112: rockets 2
+    400114: rockets 2_end
+    400116: rockets 3
+    400118: rockets 3_end
+    400120: rockets 4
+    400122: rockets 4_end
+    400124: root hips
+    400126: spine lower
+    400128: spine middle
+    400130: unused trash 01
+    400132: unused trash 02
+    400134: unused trash 02_end
+    400136: unused trash 03
+    400138: unused trash 03_end
+    400140: unused trash 04
+    400142: unused trash 04_end
+    400144: unused trash 05
+    400146: unused trash 05_end
+    2000000: Camera
+    4300000: 24_modelsheroesrattletraprattletrapheadcolor_1_0_0
+    4300002: 24_modelsheroesrattletraprattletrapcolor_1_0_0
+    4300004: 24_modelsheroesrattletraprattletraparmorcolor_1_0_0
+    9500000: //RootNode
+    10800000: Lamp
+    13700000: 24_modelsheroesrattletraprattletraparmorcolor_1_0_0
+    13700002: 24_modelsheroesrattletraprattletrapcolor_1_0_0
+    13700004: 24_modelsheroesrattletraprattletrapheadcolor_1_0_0
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_modelsheroesrattletraprattletraparmorcolor_1_0_0
+    second: {fileID: 2100000, guid: 6b7dfb05251818e46bf1d2b9d132cd85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_modelsheroesrattletraprattletrapcolor_1_0_0
+    second: {fileID: 2100000, guid: ac01beb307298414e846008b751a7c0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_modelsheroesrattletraprattletrapheadcolor_1_0_0
+    second: {fileID: 2100000, guid: f38e18ff7dac6a84c95c875b2278a0da, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
