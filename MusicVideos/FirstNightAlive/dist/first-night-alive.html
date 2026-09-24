@@ -3250,7 +3250,19 @@ scene(T.dawn, SONG_LEN + 1, 'Dawn', F => {
   ['dragenter', 'dragover'].forEach(ev => stage.addEventListener(ev, e => { e.preventDefault(); dropz.hidden = false; }));
   ['dragleave', 'drop'].forEach(ev => stage.addEventListener(ev, e => { e.preventDefault(); if (ev === 'dragleave' && stage.contains(e.relatedTarget)) return; dropz.hidden = true; }));
   stage.addEventListener('drop', e => { const f = e.dataTransfer && e.dataTransfer.files[0]; handleFile(f); });
-  DB.get().then(v => { if (v && v.blob && mode === 'idle') useBlob(v.blob, v.name || 'track', true); });
+  // running from disk or a local server: pick up the viewer's own copy saved next to this page
+  function tryLocal() {
+    if (!(location.protocol === 'file:' || /^(localhost|127\.)/.test(location.hostname))) return;
+    const probe = new Audio(); probe.preload = 'metadata';
+    probe.addEventListener('loadedmetadata', () => {
+      if (mode !== 'idle') return;
+      audio.src = probe.src; mode = 'audio';
+      readyEl.textContent = 'Ready: first-night-alive.mp3 (found next to this page).';
+      chooseBtn.textContent = 'Play'; chooseBtn.onclick = start; loadBtn.hidden = false;
+    }, { once: true });
+    probe.src = 'first-night-alive.mp3';
+  }
+  DB.get().then(v => { if (v && v.blob && mode === 'idle') useBlob(v.blob, v.name || 'track', true); else tryLocal(); });
 
   // ---------- controls ----------
   playBtn.onclick = () => {
