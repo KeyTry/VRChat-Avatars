@@ -1,0 +1,4 @@
+# Keep the recording out of the repo: the page loads your own copy locally.
+*.mp3
+*.wav
+*.flac
